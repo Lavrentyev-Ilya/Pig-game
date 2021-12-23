@@ -50,7 +50,7 @@ btnRoll.addEventListener('click', () => {
    if (gameCondition) {
       // 1. Generation a random dice roll
       const dice = Math.trunc(Math.random() * 6) + 1;
-      diceEl.src = `dice-${dice}.png`;
+      diceEl.src = `assets/images/dice-${dice}.png`;
       // 2. Display dice
       diceEl.classList.remove('hidden');
       // 3. Check for rolled 1
